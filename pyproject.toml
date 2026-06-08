@@ -1,0 +1,10 @@
+[project]
+name = "image-classifier"
+version = "0.1.0"
+description = "CIFAR-10 image classifier (CNN) built with TensorFlow/Keras."
+requires-python = ">=3.10,<3.13"
+dependencies = [
+    "tensorflow",
+    "opencv-python",
+    "numpy",
+]
